@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here -->
+      <!-- ............................................................................. -->
+      <div class="row time-block" id="07">
+        <div class="col-2 hour" id="7">7:00AM</div>
+        <textarea class="col-9 description" id="TA7"> </textarea>
+        <button class="col-1 saveBtn" id="b7am">💾</button>
+      </div>
+
+      <!-- ............................................................................. -->
+      <div class="row time-block" id="08">
+        <div class="col-2 hour" id="8">8:00AM</div>
+        <textarea class="col-9 description" id="TA8"> </textarea>
+        <button class="col-1 saveBtn" id="b8am">💾</button>
+      </div>
+
+      <!-- ............................................................................. -->
+      <div class="row time-block" id="09">
+        <div class="col-2 hour" id="9">9:00AM</div>
+        <textarea class="col-9 description" id="TA9"> </textarea>
+        <button class="col-1 saveBtn" id="b9am">💾</button>
+      </div>
+
+      <!-- ............................................................................. -->
+      <div class="row time-block" id="10">
+        <div class="col-2 hour" id="10">10:00AM</div>
+        <textarea class="col-9 description" id="TA10"> </textarea>
+        <button class="col-1 saveBtn" id="b10am">💾</button>
+      </div>
+
+      <!-- ............................................................................. -->
+      <div class="row time-block otro" id="11">
+        <div class="col-2 hour" id="11">11:00 AM</div>
+        <textarea class="col-9 description" id="TA11"> </textarea>
+        <button class="col-1 saveBtn" id="b11am">💾</button>
+      </div>
+
+      <!-- ............................................................................. -->
+      <div class="row time-block" id="12">
+        <div class="col-2 hour" id="12">12:00 PM</div>
+        <textarea class="col-9 description" id="TA12"> </textarea>
+        <button class="col-1 saveBtn" id="b12pm">💾</button>
+      </div>
+
+      <!-- ............................................................................. -->
+      <div class="row time-block" id="13">
+        <div class="col-2 hour" id="13">1:00 PM</div>
+        <textarea class="col-9 description" id="TA13"> </textarea>
+        <button class="col-1 saveBtn" id="b1pm">💾</button>
+      </div>
+
+      <!-- ............................................................................. -->
+      <div class="row time-block" id="14">
+        <div class="col-2 hour" id="14">2:00 PM</div>
+        <textarea class="col-9 description" id="TA14"> </textarea>
+        <button class="col-1 saveBtn" id="b2pm">💾</button>
+      </div>
+
+      <!-- ............................................................................. -->
+      <div class="row time-block" id="15">
+        <div class="col-2 hour" id="15">3:00 PM</div>
+        <textarea class="col-9 description" id="TA15"> </textarea>
+        <button class="col-1 saveBtn" id="b3pm">💾</button>
+      </div>
+
+      <!-- ............................................................................. -->
+      <div class="row time-block" id="16">
+        <div class="col-2 hour" id="16">4:00 PM</div>
+        <textarea class="col-9 description" id="TA16"> </textarea>
+        <button class="col-1 saveBtn" id="b4pm">💾</button>
+      </div>
+
+      <!-- ............................................................................. -->
+      <div class="row time-block" id="17">
+        <div class="col-2 hour" id="17">5:00 PM</div>
+        <textarea class="col-9 description" id="TA17"> </textarea>
+        <button class="col-1 saveBtn" id="b5pm">💾</button>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    
+    <script src="./assets/index.js"></script>
+  </body>
+</html>
